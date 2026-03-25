@@ -16,3 +16,25 @@ jobs:
         run: date
       - name: List the workspace
         run: ls -la
+  thanks:
+    name: Say thanks
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a thank you message
+        run: echo "Thank you for using GitHub Actions!"
+      - name: Print the date
+        run: date
+      - name: List the workspace
+        run: ls -la
+  goodbye:
+    name: Say goodbye
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print a farewell
+        run: echo "Goodbye from GitHub Actions!"
+      - name: Print the date
+        run: date
+      - name: List the workspace
+        run: ls -la
+  
+    
